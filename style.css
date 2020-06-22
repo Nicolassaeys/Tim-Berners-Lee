@@ -1,0 +1,96 @@
+header, section {font-family: 'Open Sans', sans-serif;
+}
+
+body {display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 0.8fr 0.4fr 1.7fr;
+text-align: center;
+row-gap: 40px;
+padding-top: 40px;
+padding-bottom: 40px;
+background-color: #ececec;
+font-family: 'Open Sans', sans-serif;
+}
+
+.tim {border-radius: 50%;
+height: 150px;
+border: 5px solid #e1e1e1;
+border-color: #e1e1e1;}
+
+.title {color: #db6859;}
+
+.subtitle {font-size: 25px;}
+
+header {grid-column: 2 / 3;
+padding: 8%;
+background-color: white;
+color: #7e7e7e;
+border-radius: 4%;
+box-shadow: 1px 1px 2px 1px #a8a6a6;
+
+}
+
+.bio {text-align: justify;}
+
+.link {background-color: #db6859;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+
+nav {grid-column: 2 / 3;
+background-color: white;
+padding-top: 12%;
+color: #c9c9c9;
+border-radius: 4%;
+box-shadow: 1px 1px 2px 1px #a8a6a6;
+}
+
+nav a:link {color: #c9c9c9;
+text-decoration: none;}
+nav a:visited {color: #c9c9c9;
+text-decoration: none;}
+
+
+ul {list-style-type: none;}
+
+section {grid-row-start: 3;
+grid-column-start: 2;
+
+background-color: white;}
+
+.logos {display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    
+    }
+
+.social {display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 17px;
+    
+    padding-left: 17%;
+    padding-right: 19%;}
+
+.films {color: #7e7e7e;
+    border-radius: 4%;
+    box-shadow: 1px 1px 2px 1px #a8a6a6;
+}
+
+.img1, .img2, .img3 {height: 180px;}
+
+table {padding: 20px;
+    border-spacing: 60px;
+
+}
+
+.space, .hulot, .alien {text-align: justify;}
+
+.movies {padding-top: 40px;}
