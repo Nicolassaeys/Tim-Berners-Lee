@@ -65,19 +65,53 @@ grid-column-start: 2;
 
 background-color: white;}
 
-.logos {display: flex;
-    justify-content: space-evenly;
-    font-size: 40px;
-    
-    }
 
-.social {display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: 17px;
+
+
+
+nav {display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+
+
+.fblogo, .linklogo, .twitterlogo { 
+    font-size: 40px;
+    margin: auto;
+}
+
+.fblogo {
+    grid-area: 1 / 2 / 2 / 3;
     
-    padding-left: 17%;
-    padding-right: 19%;}
+    
+}
+
+.linklogo {
+    grid-area: 1 / 3 / 2 / 4;
+    
+}
+
+.twitterlogo {
+    grid-area: 1 / 4 / 2 / 5;
+    
+}
+
+.fb {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    
+}
+
+.linkedin {
+    grid-area: 2 / 3 / 3 / 4;
+    
+}
+
+.twitter {
+    grid-area: 2 / 4 / 3 / 5;
+    
+}
 
 .films {color: #7e7e7e;
     border-radius: 4%;
